@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <form id="container">
+        <h1 class="titulo">CRIPTOGRAFIA</h1>
+        <textarea name="" id="mensagem" cols="30" rows="10">Digite um texto.</textarea>
+        <select name="" id="selecionarCifra">
+            <option value="">Escolha uma das opções</option>
+            <option value="cifraCesar">Cifra de Cesar</option>
+            <option value="base64">Base 64</option>
+        </select>
+            <label id="textIncrem" for="">Escolha um incremento</label>
+            <input type="number" name="" id="incremento">
+            
+            <input type="radio" name="Escolha" id="codif">
+            <label id="codif">Codificar</label>
+            
+            <input type="radio" name="Escolha" id="decod">
+            <label id="decod">Decodificar</label>
+            
+            <textarea name="" id="mensagemCriptografada" cols="30" rows="10"></textarea>
+            <button id="btnCriptografar">Criptografar</button>
+        
+    </form> 
+
+    <footer class="rodape">Todos os direitos reservados - Hugo Parada</footer>
+    <script src="./cifra.js"></script>
+</body>
+</html>

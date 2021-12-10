@@ -1,0 +1,77 @@
+body {
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.titulo {
+    background: rgba(0, 0, 0, 0.164);
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#mensagem {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+}
+
+#incremento {
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textIncrem {
+    text-align: center;
+}
+
+#selecionarCifra {
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#textIncrem {
+    margin-top: 30px;
+}
+
+#codif {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#decod {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mensagemCriptografada {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnCriptografar {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape {
+    height: 30px;
+    background: rgba(0, 0, 0, 0.281);
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 30px;
+}
